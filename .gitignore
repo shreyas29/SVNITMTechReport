@@ -7,7 +7,6 @@
 *.log
 *.lot
 *.out
-*.pdf
 *.ps
 *.synctex.gz
 *.tex.bak
@@ -16,5 +15,6 @@
 ./Appendix/*.aux
 ./Chapter*/*.aux
 ./Chapter*/*.log
+./Figures/*.pdf
 ./Sections/*.aux
 ./Sections/*.log
