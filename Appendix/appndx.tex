@@ -1,0 +1,44 @@
+\begin{appendices}
+\chapter{Classical Multi-Dimensional Scaling}
+In the Classical MDS it is assumed that, there is a linear relationship between Euclidean distance and shortest path distance between each pair of nodes. For each pair of nodes $(i,j)$, if the Euclidean distance and shortest path are denoted by $d_{ij}$, and $p_{ij}$ respectively; then the relation between $d_{ij}$ and $p_{ij}$ can be represented as $d_{ij}=kp_{ij}+c$, where $k$ and $c$ are constants.
+Let the $n$ number of nodes are deployed on the field. The coordinates of $n$ points in a $m$ dimensional Euclidean space be given by $X_{i}=(x_{i1},....,x_{im})^{T}$,
+Then the squared Euclidean distance between the $i^{th}$ and $j^{th}$ nodes is defined by -
+\begin{displaymath}
+d^{2}_{ij} = {\sum\limits_{a=1}^m (X_{ia}-X_{ja})^2}=
+ {\sum\limits_{a=1}^m X_{ia}^{2}+ X_{ja}^{2}-2X_{ia}X_{ja}}
+\label{300}
+\end{displaymath}
+Let $D^{2}(X)$ denote the matrix of squared distances. For example, when $X$ contains the coordinates of three points in two dimensions, $D^{2}(X)$ can be represented as-
+\begin{displaymath}
+D^{2}(X) =
+\left( \begin{array}{ccccc}
+0 & d_{12}^2 & d_{13}^2 & \ldots & d_{1n} \\
+d_{12}^2 & 0 & d_{23}^2 & \ldots & d_{2n}\\
+\vdots & \vdots & \vdots & \ldots & \vdots \\
+d_{1n}^2 & d_{2n}^2 & d_{3n}^2 & \ldots & 0 \\
+\end{array} \right)	\\
+\end{displaymath}
+\begin{displaymath}
+= \sum\limits_{a=1}^2{\left( \begin{array}{ccccc}
+x_{1a}^2 & x_{1a}^2 & \ldots & x_{1a}^2 \\
+x_{2a}^2 & x_{2a}^2 & \ldots & x_{2a}^2 \\
+\vdots   & \ddots   &        & \vdots\\
+x_{na}^2 & x_{na}^2 & \ldots & x_{na}^2 \\
+\end{array} \right)	}+
+\sum\limits_{a=1}^2{\left( \begin{array}{ccccc}
+x_{1a}^2 & x_{2a}^2 & \ldots & x_{na}^2 \\
+x_{1a}^2 & x_{2a}^2 & \ldots & x_{na}^2 \\
+\vdots   & \ddots   &        & \vdots\\
+x_{1a}^2 & x_{2a}^2 & \ldots & x_{na}^2 \\
+\end{array} \right)	} 
+-
+2{\sum\limits_{a=1}^2{\left( \begin{array}{ccccc}
+x_{1a}^2 x_{1a}^2& x_{1a}^2 x_{2a}^2 & \ldots & x_{1a}^2x_{na}^2 \\
+x_{2a}^2 x_{1a}^2 & x_{2a}^2 x_{2a}^2 & \ldots & x_{2a}^2 x_{na}^2\\
+\vdots   & \ddots   &        & \vdots\\
+x_{na}^2 x_{1a}^2& x_{na}^2 x_{2a}^2& \ldots & x_{na}^2x_{na}^2 \\
+\end{array} \right)	}}
+\end{displaymath}
+Where, diagonal elements $x^{2}_{ij}$ for $i=j$ are 0.\\
+
+\end{appendices}
