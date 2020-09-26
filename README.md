@@ -1,7 +1,11 @@
 # SVNIT M.Tech Dissertation Report
-It's an M.Tech dissertation report for SVNIT (NIT Surat) in LaTex format. 
+It's an M.Tech dissertation report for SVNIT (NIT Surat) in LaTex format.
 
-Below are the steps of how to use this report:
+The easiest way to use this template is from Overleaf.
+Open below link and press "Open as Template" button.
+- https://www.overleaf.com/latex/templates/svnitmtechreport/ybjtfntnsgxr
+
+If you want to use this report form your local machine then follow below steps:
 
 Step 1: Download and Install:
 
